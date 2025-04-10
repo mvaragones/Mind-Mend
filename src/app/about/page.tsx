@@ -45,7 +45,7 @@ export default function About() {
                 teams, powered by AI
               </h1>
             </div>
-            <div className="p-20 md:p-10 gap-4 flex flex-col md:text-left text-base sm:text-lg  ">
+            <div className="p-20 md:p-10 gap-4 flex flex-col md:text-left text-base sm:text-lg w-150 ">
               <p>
                 We believe in the power of video to foster human connections
                 <br /> and empower go-to-market professionals to deliver trusted
@@ -62,15 +62,15 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="w-300 h-100 rounded-md bg-linear-to-b from-white-500 to-indigo-100">
-            <div>
-              <h1>Our Team</h1>
-              <p>
+          <div className="w-310 h-100 rounded-md bg-linear-to-b from-white-500 to-indigo-100">
+            <div className="text-center">
+              <h1 className="font-bold text-4xl">Our Team</h1>
+              <p className="pt-3">
                 Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 vulputate libero et velit interdum, ac aliquet odio mattis.
               </p>
             </div>
-            <div className="m-10 flex md-flex-row justify-center items-center gap-8">
+            <div className="m-5 flex md-flex-row justify-center items-center gap-8">
               <div>
                 {/* card */}
                 <div className="bg-white w-50 h-70 flex flex-col justify-center shadow-2xl rounded-md ">
@@ -78,12 +78,15 @@ export default function About() {
                   <div className="flex justify-center px-1 py-1">
                     <img
                       src="images/allenganda.jpg"
-                      className="w-auto h-30 rounded-md"
+                      className="w-auto h-30 rounded-full"
                     />
                   </div>
                   {/* card content */}
                   <div className="text-center">
-                    <h1 className="font-bold sm:text-2xl"> Allen Spayne</h1>
+                    <h1 className="font-bold sm:text-xl text-center">
+                      {" "}
+                      Allen Spayne
+                    </h1>
                     <span>Senior Developer</span>
                     <p> asdasdsadsag qweqweqw asdgfdfa qwrqweqw asdas</p>
                   </div>
@@ -95,12 +98,14 @@ export default function About() {
                 <div className="flex justify-center px-1 py-1">
                   <img
                     src="images/mark.jpg"
-                    className="w-auto h-30 rounded-md"
+                    className="w-auto h-30 rounded-full"
                   />
                 </div>
                 {/* content */}
                 <div className="text-center">
-                  <h1 className="font-bold sm:text-2xl">Mark Aragones</h1>
+                  <h1 className="font-bold sm:text-xl text-center">
+                    Mark Aragones
+                  </h1>
                   <span>Senior Front-end developer</span>
                   <p>da da da da da da da da ga ga ga ga ga ga</p>
                 </div>
@@ -111,12 +116,14 @@ export default function About() {
                 <div className="flex justify-center px-1 py-1 ">
                   <img
                     src="images/lawrenz.jpg"
-                    className="w-auto h-30 rounded-md"
+                    className="w-auto h-30 rounded-full"
                   />
                 </div>
                 {/* content */}
                 <div>
-                  <h1 className="font-bold text-2xl">Lawrenz CashG</h1>
+                  <h1 className="font-bold sm:text-xl text-center">
+                    Lawrenz CashG
+                  </h1>
                   <span>Full Stack</span>
                   <p>asd sad asd asd asd asd asd asd asd asd asd asd</p>
                 </div>
