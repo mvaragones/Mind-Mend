@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className=" bg-linear-to-t from-white from-14% to-[#78c6dd] to-100%">
       <Header />
-      <div className="container mx-auto ">
+      <div className="container mx-auto">
         <div className="flex flex-row justify-between items-center">
           <div className="">
             <h1 className="text-3xl">Welcome to</h1>
@@ -14,7 +14,7 @@ export default function Home() {
             <img src="images/illus.png" />
           </div>
         </div>
-        <div className="flex flex-row justify-between items-center">
+        <div className="flex sm:flex-row flex-col justify-between items-center">
           <div>
             <img src="images/h1.png" />
           </div>
